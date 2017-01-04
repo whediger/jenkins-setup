@@ -9,8 +9,10 @@ public class App
 
     public static double getPi()
     {
-        return 3.14159265358979323846264338327950288;
+        return 3.14159;
     }
+
+
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
