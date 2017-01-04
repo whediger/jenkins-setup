@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
     extends TestCase
 {
     /**
@@ -34,5 +34,11 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void testPI(){
+      App app = new App();
+      assertEquals(3.14159265358979323846264338327950288, app.getPI(), "PI was not returned");
     }
 }
