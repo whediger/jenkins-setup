@@ -7,7 +7,7 @@ package com.HEDgearSoftWare.app;
 public class App
 {
 
-    public static getPi()
+    public static double getPi()
     {
         return 3.14159265358979323846264338327950288;
     }
